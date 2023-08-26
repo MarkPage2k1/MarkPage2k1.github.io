@@ -6,13 +6,13 @@ import RecentWorksWritter from "./recentWorks/RecentWorksWritter";
 const RecentWorks = ({ user }) => {
   switch (user) {
     case "trainer":
-      return <RecentWorksFitness />;
+      // return <RecentWorksFitness />;
     case "lawyer":
-      return <RecentWorksLawyer />;
+      // return <RecentWorksLawyer />;
     case "writer":
-      return <RecentWorksWritter />;
+      // return <RecentWorksWritter />;
     case "musician":
-      return <RecentWorksMusician />;
+      // return <RecentWorksMusician />;
     default:
       return <RecentWorksDefault />;
   }

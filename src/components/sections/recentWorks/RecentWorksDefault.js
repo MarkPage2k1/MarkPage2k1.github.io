@@ -99,7 +99,7 @@ const RecentWorksDefault = () => {
         {/* content */}
         <div className="row grid-items border-line-v">
           {/* work item photo */}
-          <div className="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+          {/* <div className="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
             <div className="box-item">
               <div className="image">
                 <a href="images/works/work1.jpg" className="has-popup-image">
@@ -119,9 +119,9 @@ const RecentWorksDefault = () => {
                 <div className="category">Image</div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* work item video */}
-          <div className="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
+          {/* <div className="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
             <div className="box-item">
               <div className="image">
                 <a
@@ -144,9 +144,9 @@ const RecentWorksDefault = () => {
                 <div className="category">Video</div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* work item music */}
-          <div className="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
+          {/* <div className="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
             <div className="box-item">
               <div className="image">
                 <a
@@ -166,9 +166,9 @@ const RecentWorksDefault = () => {
                 <div className="category">Music</div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* work item design */}
-          <div className="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
+          {/* <div className="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
             <div className="box-item">
               <div className="image">
                 <a href="#popup-1" className="has-popup-media">
@@ -244,9 +244,9 @@ const RecentWorksDefault = () => {
                 <div className="category">Content</div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* work item photo */}
-          <div className="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
+          {/* <div className="col col-d-6 col-t-6 col-m-12 grid-item gallery border-line-h">
             <div className="box-item">
               <div className="image">
                 <a href="#gallery-1" className="has-popup-gallery img-gallery">
@@ -268,9 +268,9 @@ const RecentWorksDefault = () => {
                 <div className="category">Gallery</div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* work item music */}
-          <div className="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
+          {/* <div className="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
             <div className="box-item">
               <div className="image">
                 <a
@@ -290,7 +290,7 @@ const RecentWorksDefault = () => {
                 <div className="category">Music</div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* work item video */}
           <div className="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
             <div className="box-item">

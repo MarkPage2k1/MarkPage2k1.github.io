@@ -17,7 +17,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #141414;
+  background: #5b8f83;
 }
 .blured-background span {
   width: 20vmin;
@@ -291,7 +291,7 @@ body .profile .main-menu-fixed:before,
 body .header .cart-btn,
 body .header .cart-btn .cart-widget,
 body .header .top-menu {
-    background: #191919 !important;
+    background: #DDDAC9 !important;
 }
 
 .preloader .spinner .double-bounce1,
@@ -353,7 +353,7 @@ body .header .top-menu {
 .solid-icons-style .skill-title .icon,
 .card-started .profile .lnk.solid-style .ion,
 .header .top-menu.menu-minimal ul li a .link {
-    background: #edff20 !important;
+    background: #83AD7B !important;
 }
 
 .lnk:hover,
@@ -442,7 +442,7 @@ textarea:focus,
 .button:hover .ion,
 .lnk:hover .fa,
 .button:hover .fa {
-    color: #edff20 !important;
+    color: #0D3E6B !important;
 }
 
 input:focus,
@@ -515,7 +515,7 @@ textarea:focus,
 .border-icons-style .fuct-items .fuct-item .icon,
 .border-icons-style .resume-title .icon,
 .border-icons-style .skill-title .icon {
-    border-color: #edff20;
+    border-color: #83AD7B;
 }
 
 .header .cart-btn .cart-icon .cart-count,
@@ -652,7 +652,7 @@ textarea:focus,
 	color: #323232;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 560px) {
 	body .header .top-menu.menu-minimal ul.menu {
 		background: transparent;
 	}
@@ -674,7 +674,7 @@ textarea:focus,
 .content-sidebar .profile .social a .fab,
 .content-sidebar .profile .social a .fas,
 .content-sidebar .profile .social a .fa {
-	color: rgba(255,255,255,.85);
+	color: #83AD7B;
 	font-size: 18px;
 }
 
@@ -711,7 +711,7 @@ textarea:focus,
 
 @media (max-width: 1240px) {
   .header {
-    background: #191919 !important;
+    background: #dddac900 !important;
   }
 }
 

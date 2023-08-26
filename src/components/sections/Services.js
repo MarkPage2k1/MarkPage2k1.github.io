@@ -3,23 +3,23 @@ import { Fragment } from "react";
 const data = [
   {
     icon: "fa fa-code",
-    title: "Web Development",
-    desc: "Modern and mobile-ready website that will help you reach all of your marketing.",
+    title: "Coding",
+    desc: "Engaging with technology to create innovative solutions.",
   },
   {
     icon: "fa fa-music",
-    title: "Music Writing",
-    desc: "Music copying, writing, creating, transcription, arranging and composition services.",
+    title: "Listening to music",
+    desc: "Finding solace and joy in the melodies that resonate.",
   },
   {
-    icon: "fa fa-buysellads",
-    title: "Advetising",
-    desc: "Advertising services include television, radio, print, mail, and web apps.",
+    icon: "fa fa-graduation-cap",
+    title: "Learning",
+    desc: "Constantly expanding knowledge and exploring new horizons.",
   },
   {
     icon: "fa fa-gamepad",
-    title: "Game Development",
-    desc: "Developing memorable and unique mobile android, ios and video games.",
+    title: "Playing games",
+    desc: "Diving into virtual worlds for fun and challenges.",
   },
 ];
 
@@ -30,13 +30,13 @@ const Services = ({ serviceList }) => {
       <div className="content services">
         {/* title */}
         <div className="title">
-          <span className="first-word">My</span> Services
+          <span className="first-word">My</span> interests
         </div>
         {/* content */}
         <div className="row service-items border-line-v">
           {/* service item */}
           {services.map((service, i) => (
-            <div key={i} className="col col-d-6 col-t-6 col-m-12 border-line-h">
+            <div key={i} className="col col-d-3 col-t-3 col-m-12 border-line-h">
               <div className="service-item">
                 <div className="icon">
                   <span className={service.icon} />

@@ -25,16 +25,16 @@ const AboutMe = ({ bio }) => {
             <div className="info-list">
               <ul>
                 <li>
-                  <strong>Age . . . . .</strong> 24
+                  <strong>Age . . . . .</strong> 22
                 </li>
                 <li>
-                  <strong>Residence . . . . .</strong> USA
+                  <strong>Residence . . . . .</strong> VIETNAM
                 </li>
                 <li>
-                  <strong>Freelance . . . . .</strong> Available
+                  <strong>Freelance . . . . .</strong> Unavailable
                 </li>
                 <li>
-                  <strong>Address . . . . .</strong> London, UK
+                  <strong>Address . . . . .</strong> QuyNhon, VIETNAM
                 </li>
               </ul>
             </div>

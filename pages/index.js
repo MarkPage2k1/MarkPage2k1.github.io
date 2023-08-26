@@ -29,16 +29,14 @@ const RecentWorks = dynamic(
   }
 );
 const bio = `<p>
-I am Ryan Adlard, web designer from USA, California. I have rich experience in
-web site design and building and customization, also I am good at wordpress.
-I love to talk with you about our unique.
+I'm Mark, a passionate programmer and experienced DevOps engineer with a strong tech background. With years in software, I'm intrigued by the creation, operation, and security of technologies. As I journey ahead, I'm honing my cybersecurity skills. Open-minded and approachable, feel free to connect! Regards.
 </p>`;
 const IndexDark = () => {
   return (
     <Layout bg={"blured"}>
       <Head>
         <link rel="stylesheet" href="css/new-skin/new-skin.css" />
-        <link rel="stylesheet" href="css/template-dark/dark.css" />
+        {/* <link rel="stylesheet" href="css/template-dark/dark.css" /> */}
         <link rel="stylesheet" href="css/new-skin/minimal-skin.css" />
       </Head>
       <Header />
@@ -46,29 +44,28 @@ const IndexDark = () => {
         <div className="profile no-photo">
           <div
             className="slide"
-            style={{ backgroundImage: "url(images/avatar1.jpg)" }}
+            style={{ backgroundImage: "url(images/avatar.gif)" }}
           />
-          <div className="title">Ryan Adlard</div>
+          <div className="title">Mark Page</div>
           <TypingAnimation />
           <div className="social">
-            <a target="_blank" rel="noreferrer" href="https://dribbble.com/">
-              <span className="fa fa-dribbble" />
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/markpage2k1/">
+              <span className="fa fa-facebook-square" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/">
-              <span className="fa fa-twitter" />
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/markpage2k1/">
+              <span className="fa fa-linkedin-square" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/">
-              <span className="fa fa-github" />
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/MarkPage2k1/">
+              <span className="fa fa-twitter-square" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://www.spotify.com/">
-              <span className="fa fa-spotify" />
+            <a target="_blank" rel="noreferrer" href="https://github.com/MarkPage2k1">
+              <span className="fa fa-github-square" />
             </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://stackoverflow.com/"
-            >
-              <span className="fa fa-stack-overflow" />
+            <a href="#">
+              <span className="fa fa-youtube-square" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://blog.markpage2k1.me/">
+              <span className="fa fa-rss-square" />
             </a>
           </div>
           {/* profile buttons */}
@@ -88,15 +85,15 @@ const IndexDark = () => {
         <About>
           <AboutMe bio={bio} />
           <Services />
-          <Pricing />
-          <FunFact />
-          <Clients />
-          <Quote />
+          {/* <Pricing /> */}
+          {/* <FunFact /> */}
+          {/* <Clients /> */}
+          {/* <Quote /> */}
         </About>
         <Resume>
           <ResumeSection />
-          <Skills />
-          <Testimonials />
+          {/* <Skills /> */}
+          {/* <Testimonials /> */}
         </Resume>
         <Work>
           <RecentWorks />
@@ -104,10 +101,10 @@ const IndexDark = () => {
         <Blog>
           <BlogSection />
         </Blog>
-        <Contact>
+        {/* <Contact>
           <ContactInfo />
           <ContactForm />
-        </Contact>
+        </Contact> */}
       </ContentContainer>
     </Layout>
   );

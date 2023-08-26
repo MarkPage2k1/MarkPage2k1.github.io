@@ -17,29 +17,27 @@ const ResumeSection = () => {
             </div>
             <div className="resume-items">
               <div className="resume-item border-line-h active">
-                <div className="date">2013 - Present</div>
-                <div className="name">Art Director</div>
-                <div className="company">Facebook Inc.</div>
+                <div className="date">2022 - Present</div>
+                <div className="name">DevOps Engineer</div>
+                <div className="company">FPT Corporation</div>
                 <p>
-                  Collaborate with creative and development teams on the
-                  execution of ideas.
+                  Collaborate with development and operations teams to execute ideas effectively in a DevOps context.
                 </p>
               </div>
               <div className="resume-item border-line-h">
-                <div className="date">2011 - 2012</div>
-                <div className="name">Front-end Developer</div>
-                <div className="company">Google Inc.</div>
+                <div className="date">2021 - 2022</div>
+                <div className="name">Pentest Security Engineer</div>
+                <div className="company">VNPT Corporation</div>
                 <p>
-                  Monitored technical aspects of the front-end delivery for
-                  several projects.
+                  Conduct security assessments and collaborate with various teams to execute ideas, ensuring robust protection against potential vulnerabilities.
                 </p>
               </div>
-              <div className="resume-item">
+              {/* <div className="resume-item">
                 <div className="date">2009 - 2010</div>
                 <div className="name">Senior Developer</div>
                 <div className="company">Abc Inc.</div>
                 <p>Optimize website performance using latest technology.</p>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* education */}
@@ -52,21 +50,20 @@ const ResumeSection = () => {
             </div>
             <div className="resume-items">
               <div className="resume-item border-line-h">
-                <div className="date">2006 - 2008</div>
-                <div className="name">Art University</div>
-                <div className="company">New York</div>
+                <div className="date">2019 - 2023</div>
+                <div className="name">Danang - University of Science and Technology</div>
+                <div className="company">Viet Nam</div>
                 <p>
-                  {`Bachelor's`} Degree in Computer Science ABC Technical
-                  Institute, Jefferson, Missouri
+                  {`Bachelor's`} Information Technology Engineering, Major in Information Technology, Specialization in Network Security.
                 </p>
               </div>
-              <div className="resume-item border-line-h">
+              {/* <div className="resume-item border-line-h">
                 <div className="date">2005 - 2006</div>
                 <div className="name">Programming Course</div>
                 <div className="company">Paris</div>
                 <p>Coursework - Git, WordPress, Javascript, iOS, Android.</p>
-              </div>
-              <div className="resume-item">
+              </div> */}
+              {/* <div className="resume-item">
                 <div className="date">2004 - 2005</div>
                 <div className="name">Web Design Course</div>
                 <div className="company">London</div>
@@ -74,7 +71,7 @@ const ResumeSection = () => {
                   Converted Photoshop layouts to web pages using HTML, CSS, and
                   JavaScript
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="clear" />

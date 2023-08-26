@@ -19,8 +19,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/gradient.css" />
 
-        <title>Ryan - vCard / Resume / CV Template</title>
-        <link rel="shortcut icon" href="images/favicons/favicon.ico" />
+        <title>Mark Page - Resume</title>
+        <link rel="shortcut icon" href="images/favicons/site_icon.ico" />
       </Head>
       <PreLoader />
       <Component {...pageProps} />
