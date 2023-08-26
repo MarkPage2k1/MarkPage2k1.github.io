@@ -547,6 +547,24 @@ textarea:focus,
 	-khtml-border-radius: 26px 26px;
 }
 
+/* My Custom menu hover into button on mobile */
+@media (max-width: 560px) {
+  .header .top-menu.menu-minimal ul li a:hover .link {
+    left: 17% !important;
+  }
+  .header .top-menu.menu-minimal ul li a .link {
+    top: 80% !important; 
+    margin-top: 0px !important;
+  }
+  .header .top-menu.menu-minimal ul li a .link {
+    padding: 2px 2px !important;
+  }
+  .header .top-menu ul li a .link {
+    line-height: 12px !important;
+    width: 65% !important;
+  }
+}
+
 .header .top-menu.menu-minimal ul li a {
     padding: 9px 3px;
 }
