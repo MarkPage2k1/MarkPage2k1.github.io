@@ -358,7 +358,7 @@ strong {
 	left: -1px;
 	background: -moz-radial-gradient(top, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
 	background: -webkit-radial-gradient(top, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
-	background: radial-gradient(ellipse at top, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, #6E6D64 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 .border-line-h:after {
@@ -933,7 +933,7 @@ input[type="file"] {
 	width: auto;
 	background: -moz-radial-gradient(left, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
 	background: -webkit-radial-gradient(left, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
-	background: radial-gradient(ellipse at left, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, #6E6D64 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 /*
@@ -1078,7 +1078,7 @@ input[type="file"] {
 .service-items.border-line-v:after {
 	background: -moz-radial-gradient(top, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
 	background: -webkit-radial-gradient(top, ellipse cover, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
-	background: radial-gradient(ellipse at top, #dddddd 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, #6E6D64 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 .service-items .service-item {

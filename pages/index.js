@@ -74,7 +74,7 @@ const IndexDark = () => {
               <span className="text">Download CV</span>
               <span class="ion ion-ios-cloud-download"></span>
             </a>
-            <a href="#" className="lnk discover">
+            <a href="mailto:markpage.dev@gmail.com" className="lnk discover">
               <span className="text">Contact Me</span>
               <span class="ion ion-paper-airplane"></span>
             </a>

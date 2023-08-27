@@ -38,7 +38,7 @@ const RecentWorksDefault = () => {
     <Fragment>
       <div className="content works">
         {/* title */}
-        <div className="title">Recent Works</div>
+        <div className="title">Recent Projects</div>
         {/* filters */}
         <div className="filter-menu filter-button-group">
           <div
@@ -50,7 +50,7 @@ const RecentWorksDefault = () => {
               All
             </label>
           </div>
-          <div
+          {/* <div
             className={`f_btn ${activeBtn("photo")}`}
             onClick={handleFilterKeyChange("photo")}
           >
@@ -58,8 +58,8 @@ const RecentWorksDefault = () => {
               <input type="radio" name="fl_radio" defaultValue="photo" />
               Image
             </label>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className={`f_btn ${activeBtn("gallery")}`}
             onClick={handleFilterKeyChange("gallery")}
           >
@@ -67,7 +67,7 @@ const RecentWorksDefault = () => {
               <input type="radio" name="fl_radio" defaultValue="gallery" />
               Gallery
             </label>
-          </div>
+          </div> */}
           <div
             className={`f_btn ${activeBtn("video")}`}
             onClick={handleFilterKeyChange("video")}
@@ -77,7 +77,7 @@ const RecentWorksDefault = () => {
               Video
             </label>
           </div>
-          <div
+          {/* <div
             className={`f_btn ${activeBtn("music")}`}
             onClick={handleFilterKeyChange("music")}
           >
@@ -85,14 +85,14 @@ const RecentWorksDefault = () => {
               <input type="radio" name="fl_radio" defaultValue="music" />
               Music
             </label>
-          </div>
+          </div> */}
           <div
             className={`f_btn ${activeBtn("design")}`}
             onClick={handleFilterKeyChange("design")}
           >
             <label>
               <input type="radio" name="fl_radio" defaultValue="design" />
-              Content
+              Active Research
             </label>
           </div>
         </div>
@@ -296,10 +296,10 @@ const RecentWorksDefault = () => {
             <div className="box-item">
               <div className="image">
                 <a
-                  href="https://www.youtube.com/embed/mkjwxmcdb0E"
+                  href="https://www.youtube.com/embed/FLAWDU6hpGM"
                   className="has-popup-video"
                 >
-                  <img src="images/works/work6.jpg" alt="" />
+                  <img src="images/works/what_is_devsecops.jpg" alt="" />
                   <span className="info">
                     <span className="ion ion-videocamera" />
                   </span>
@@ -307,12 +307,12 @@ const RecentWorksDefault = () => {
               </div>
               <div className="desc">
                 <a
-                  href="https://www.youtube.com/embed/mkjwxmcdb0E"
+                  href="https://www.youtube.com/embed/FLAWDU6hpGM"
                   className="name has-popup-video"
                 >
-                  Infinity Logo
+                  Open Answers: DevSecOps
                 </a>
-                <div className="category">Video</div>
+                <div className="category">Red Hat</div>
               </div>
             </div>
           </div>
@@ -321,7 +321,7 @@ const RecentWorksDefault = () => {
             <div className="box-item">
               <div className="image">
                 <a href="#popup-2" className="has-popup-media">
-                  <img src="images/works/work8.jpg" alt="" />
+                  <img src="images/works/devsecops-lifecycle.jpg" alt="" />
                   <span className="info">
                     <span className="ion ion-images" />
                   </span>
@@ -329,52 +329,33 @@ const RecentWorksDefault = () => {
                 <div id="popup-2" className="popup-box mfp-fade mfp-hide">
                   <div className="content">
                     <div className="image">
-                      <img src="images/works/work8.jpg" alt="" />
+                      <img src="images/works/devsecops-lifecycle.jpg" alt="" />
                     </div>
                     <div className="desc">
                       <div className="post-box">
-                        <h1>Business Card Design</h1>
-                        <div className="blog-detail">Design</div>
+                        <h1>DevSecOps Lifecycle</h1>
+                        <div className="blog-detail">DevSecOps</div>
                         <div className="blog-content">
                           <p>
-                            So striking at of to welcomed resolved. Northward by
-                            described up household therefore attention.
-                            Excellence decisively nay man yet impression for
-                            contrasted remarkably.
+                            In the increasingly complex landscape of information technology, ensuring the integration of security at every stage of the software development process has become paramount. The DevSecOps Implementation project addresses this need by creating a flexible, secure, and efficient software development process.
                           </p>
                           <p>
-                            Forfeited you engrossed but gay sometimes explained.
-                            Another as studied it to evident. Merry sense given
-                            he be arise. Conduct at an replied removal an
-                            amongst. Remaining determine few her two cordially
-                            admitting old.
+                            The DevSecOps process combines three main elements: development, security, and operations. It goes beyond mere integration of security at various stages; it focuses on fostering a collaborative work environment among teams to collectively build highly secure and stable software.
                           </p>
-                          <blockquote>
-                            Vestibulum ante ipsum primis in faucibus orci luctus
-                            et ultrices posuere cubilia Curae; Pellentesque
-                            suscipit.
-                          </blockquote>
                           <p>
-                            Tiled say decay spoil now walls meant house. My mr
-                            interest thoughts screened of outweigh removing.
-                            Evening society musical besides inhabit ye my. Lose
-                            hill well up will he over on. Increasing sufficient
-                            everything men him admiration unpleasing sex.
+                            The planning and design phase marks the initial step of the DevSecOps process. Here, security elements are integrated into the overall plan and architectural design of the software. This involves identifying security risks, setting security requirements, and establishing secure coding principles.
                           </p>
-                          <ul className="list-style">
-                            <li>Greatest properly off ham exercise all.</li>
-                            <li>
-                              Unsatiable invitation its possession nor off.
-                            </li>
-                            <li>
-                              All difficulty estimating unreserved increasing
-                              the solicitude.
-                            </li>
-                          </ul>
                           <p>
-                            Unpleasant astonished an diminution up partiality.
-                            Noisy an their of meant. Death means up civil do an
-                            offer wound of.
+                            During the development phase, secure coding principles are adhered to, and automated security testing tools are employed to identify vulnerabilities and security issues as code is being written. Code reviews also play a critical role in identifying security issues early on.
+                          </p>
+                          <p>
+                            The Continuous Integration (CI) phase ensures that security checks are carried out immediately after code is committed. Static code analysis and vulnerability scanning tools are integrated into the CI process to detect and address security issues early in the development cycle.
+                          </p>
+                          <p>
+                            Subsequently, in the Continuous Deployment/Delivery (CD) phase, the CI/CD pipeline automates packaging, testing, and deployment of code to different environments. Security testing continues in this phase, encompassing dynamic application security testing (DAST) and container security scanning.
+                          </p>
+                          <p>
+                            The operations and monitoring phase ensures that post-deployment, continuous monitoring and logging help identify and respond to potential security incidents. This phase involves intrusion detection, log analysis, and real-time monitoring of applications and infrastructure.
                           </p>
                         </div>
                         <a href="#" className="button">
@@ -388,9 +369,49 @@ const RecentWorksDefault = () => {
               </div>
               <div className="desc">
                 <a href="#popup-2" className="name has-popup-media">
-                  Business Card Design
+                  DevSecOps Lifecycle
                 </a>
-                <div className="category">Content</div>
+                <div id="popup-2" className="popup-box mfp-fade mfp-hide">
+                  <div className="content">
+                    <div className="image">
+                      <img src="images/works/devsecops-lifecycle.jpg" alt="" />
+                    </div>
+                    <div className="desc">
+                      <div className="post-box">
+                        <h1>DevSecOps Lifecycle</h1>
+                        <div className="blog-detail">DevSecOps</div>
+                        <div className="blog-content">
+                          <p>
+                            In the increasingly complex landscape of information technology, ensuring the integration of security at every stage of the software development process has become paramount. The DevSecOps Implementation project addresses this need by creating a flexible, secure, and efficient software development process.
+                          </p>
+                          <p>
+                            The DevSecOps process combines three main elements: development, security, and operations. It goes beyond mere integration of security at various stages; it focuses on fostering a collaborative work environment among teams to collectively build highly secure and stable software.
+                          </p>
+                          <p>
+                            The planning and design phase marks the initial step of the DevSecOps process. Here, security elements are integrated into the overall plan and architectural design of the software. This involves identifying security risks, setting security requirements, and establishing secure coding principles.
+                          </p>
+                          <p>
+                            During the development phase, secure coding principles are adhered to, and automated security testing tools are employed to identify vulnerabilities and security issues as code is being written. Code reviews also play a critical role in identifying security issues early on.
+                          </p>
+                          <p>
+                            The Continuous Integration (CI) phase ensures that security checks are carried out immediately after code is committed. Static code analysis and vulnerability scanning tools are integrated into the CI process to detect and address security issues early in the development cycle.
+                          </p>
+                          <p>
+                            Subsequently, in the Continuous Deployment/Delivery (CD) phase, the CI/CD pipeline automates packaging, testing, and deployment of code to different environments. Security testing continues in this phase, encompassing dynamic application security testing (DAST) and container security scanning.
+                          </p>
+                          <p>
+                            The operations and monitoring phase ensures that post-deployment, continuous monitoring and logging help identify and respond to potential security incidents. This phase involves intrusion detection, log analysis, and real-time monitoring of applications and infrastructure.
+                          </p>
+                        </div>
+                        <a href="#" className="button">
+                          <span className="text">View Project</span>
+                          <span className="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="category">Integrating security into agile software development for robust outcomes.</div>
               </div>
             </div>
           </div>
